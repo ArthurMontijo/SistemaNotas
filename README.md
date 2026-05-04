@@ -1,18 +1,32 @@
-## Getting Started
+#SistemaNotas
+##Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Sistema simples em Java para cadastro e gerenciamento de notas de alunos. Permite adicionar alunos a uma turma, lançar notas, calcular médias automaticamente e verificar a situação (aprovado, recuperação ou reprovado).
 
-## Folder Structure
+#Tecnologia
+Java 21
+IDE utilizada: VS Code
+#Como executar
+Abra o terminal na pasta do projeto
+Compile os arquivos:
+javac *.java
+Execute o sistema:
+java TesteNotas
+Estrutura do projeto
 
-The workspace contains two folders by default, where:
+#Aluno
+Responsável por armazenar os dados do aluno e realizar operações como lançamento de notas, cálculo de média, verificação de situação e exibição do boletim.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+#GerenciadorTurma
+Gerencia um conjunto de alunos (até 4), permitindo cadastrar, listar, contar aprovados e identificar o aluno com maior média.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+#TesteNotas
+Classe principal com o método main. Responsável por criar os objetos e executar o fluxo de testes do sistema.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+#Autor
 
-## Dependency Management
+Arthur
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Turma
+
+Turma 1 - Módulo 2
